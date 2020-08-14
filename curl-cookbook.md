@@ -152,7 +152,7 @@ curl -w "@curl-params" -o /dev/null -s https://example.com
 
 
 <a name="ee27"></a>  
-[Resolve IP address to the owner's Autonomous System Number by sending POST query with form fields to the Team Cymru whois server](#ee27)   
+### Resolve IP address to the owner's Autonomous System Number by sending POST query with form fields to the Team Cymru whois server
 When sending any POST data with form fields, the first task is to get all the fields. The esiest way to do it is to browse to the page, fill the form, open the HTML code and write down fields and their values. I did it for the page at <a href="https://asn.cymru.com/" target=_blank rel="noopener">https://asn.cymru.com/</a>  and noted 5 fields to fill with values, the field to place IP address to query for is `bulk_paste`. In curl you specify field values with `-F 'name=value'`  option:
 
 ```bash
