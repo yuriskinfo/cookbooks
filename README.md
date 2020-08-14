@@ -8,3 +8,8 @@ Always work in progress.
 * [curl](https://github.com/yuriskinfo/cookbooks/blob/master/curl-cookbook.md)  
 
 
+### Amazon AWS
+
+* [AWS S3 cli](https://github.com/yuriskinfo/cookbooks/blob/master/aws-s3-cli-cookbook.md)  
+
+
