@@ -81,7 +81,6 @@ curl -o Index.html  -A  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/5
 
 Resources:  <a href="https://developers.whatismybrowser.com/useragents/explore/" target="_blank" rel="noopener">  https://developers.whatismybrowser.com/useragents/explore/</a>
 
-<hr>
 <a name="ee2"></a>
 ### Download a web page via GET request setting Googlebot version 2.1 as the User-Agent.
 
@@ -89,7 +88,6 @@ Resources:  <a href="https://developers.whatismybrowser.com/useragents/explore/"
 curl -o Index.html -A "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"  http://example.com
 ```
 
-<hr>
 <a name="ee3"></a>
 ### Download a page via https ignoring ceritficate errors
 Add `-k` to ignore any SSL certificate warnings/errors.  
