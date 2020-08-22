@@ -462,36 +462,36 @@ AS path lists use regular expressions to match the AS numbers in the path. The r
 <th> What matches</th>
 </tr>
 <tr>
-<td>`.` </td>
+<td>. </td>
 <td>Any single character, including space</td>
 </tr>
 <tr>
-<td>`*`</td>
+<td>*</td>
 <td>Zero or more instance of preceding pattern</td>
 </tr>
 <tr>
-<td>`+`</td>
+<td>+</td>
 <td> One or more instance of preceding pattern</td>
 </tr>
 <tr>
-<td> `?` </td>
+<td> ? </td>
 <td> Zero or one instance of preceding pattern</td>
 </tr>
 <tr>
-<td> `^`</td>
+<td> ^</td>
 <td> Beginning of the string. Also can be used to  negate inside class [^ ]</td>
 </tr>
 <tr>
-<td> `$`</td>
+<td> $</td>
 <td> End of the string</td>
 </tr>
 <tr>
-<td> ` _ `</td>
+<td>  _ </td>
 <td> (Underscore, special for AS Path lists) Matches comma, left brace (`{`), right brace (`}`), left parenthesis, right parenthesis, beginning of the string, end of the string, and a space.
 </td>
 </tr>
 <tr>
-<td> `[ ]` </td>
+<td> [ ] </td>
 <td> Range of characters, can use `-` to skip specifying all the range.</td>
 </tr>
  
