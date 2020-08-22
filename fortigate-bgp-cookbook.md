@@ -1,5 +1,5 @@
 Last updated: August 2020   
-PDF version of this post: <a href="/assets/Fortigate-BGP-cookbook-of-example-configuration-and-debug-commands.pdf">Fortigate BGP cookbook of example configuration and debug commands.pdf"</a> 
+PDF version of this post: <a href="Fortigate-BGP-cookbook-of-example-configuration-and-debug-commands.pdf">Fortigate BGP cookbook of example configuration and debug commands.pdf"</a> 
 
 
 [BGP with two ISPs for multi-homing, each advertising default gateway and full routing table. Uses route-map, prefix list, weight](#ee1)    
@@ -997,7 +997,7 @@ The workflow for the operator should be: She receives alert on client's network 
 
 The diagram for this scenario:
 
-![BGP RTBH Fortigates only diagram](/assets/fortigate-rtbh-bgp-diagram.png)
+![BGP RTBH Fortigates only diagram](pics/fortigate-rtbh-bgp-diagram.png)
 
 The solution here will adhere to the <a href="https://www.cisco.com/c/dam/en_us/about/security/intelligence/blackhole.pdf" target=_blank rel="noopener"> Remotely Triggered Black Hole Filtering—destination Based And Source Based</a>
  except that the final step - routing "dummy" IP address to *Null0* interface, which works in Cisco, will not work in Fortigate - from trial and error, I had to route such dummy IP to Loopback and thus drop packets on it. The Fortinet documentation has no explanation for this, and no one I asked knew the answer why it is so.  
