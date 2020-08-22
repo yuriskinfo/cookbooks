@@ -1,14 +1,3 @@
----
-date: 2020-05-20 10:59:25+00:00
-modified: 2020-05-25 13:00
-slug: fortigate-bgp-cookbook-of-example-configuration-and-debug
-title: Fortigate BGP cookbook of example configuration and debug commands
-category: Fortigate
-keywords: Fortigate, BGP, Fortinet, BGP cookbook, Fortigate BGP debug
-Pin: true
-tags:  Fortigate
-status: published
----
 Last updated: August 2020   
 PDF version of this post: <a href="/assets/Fortigate-BGP-cookbook-of-example-configuration-and-debug-commands.pdf">Fortigate BGP cookbook of example configuration and debug commands.pdf"</a> 
 
@@ -32,12 +21,12 @@ Solution.
 
 The BGP configuration flow in general is:
 
-![fortigate bgp cookbook configuration flow](/assets/fortigate-bgp-cookbook-case1.svg)
+![fortigate bgp cookbook configuration flow](pics/fortigate-bgp-cookbook-case1.svg)
 
 
 The topology of this case:
 
-![Fortigate BGP case 1 network topology diagram](/assets/Fortigate-BGP-case-1.svg)
+![Fortigate BGP case 1 network topology diagram](pics/Fortigate-BGP-case-1.svg)
 
 
 **FG3, AS1680:**
