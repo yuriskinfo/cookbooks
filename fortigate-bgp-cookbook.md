@@ -506,24 +506,24 @@ Let's look at some examples of matching AS numbers.
 <th> What matches</th>
 </tr>
 <tr>
-<td> `^$`  </td>
+<td> ^$  </td>
 <td> Local routes only. In other words - match routes with empty AS path. </td>
 </tr>
 <tr>
-<td>` .* `</td>
+<td> .* </td>
 <td> All and any routes </td>
 </tr>
 <tr>
-<td> `^111$` </td>
+<td> ^111$ </td>
 <td> Routes originating from a directly attached peer, i.e routes that have just one AS number in their path. Here it is routes originated by ISP1 (AS 111).</td>
 </tr>
 <tr>
-<td> ` _111$` </td>
+<td>  _111$ </td>
 <td> Routes originated by the specified AS, but not necessarily learned directly from the source AS. If the given AS 111 advertises its routes to say AS 333, and we have peering with this AS 333, then we could learn routes from AS 333 that were originated by AS 111 and their AS path would look `333 111`, and they would be matched.    Also, we don't impose length limit on AS path here, so the path `777 999 333 111` would match as well.</td>
 </tr>
 <tr>
-<td> ` _111_ ` </td>
-<td> Routes that passed on their way the specified AS, without looking in which order.  This will match routes with AS paths like: `333 111 777 999`, `111 777`, `111` (see table above as `_` will match as `$` and `^` as well) </td>
+<td>  _111_  </td>
+<td> Routes that passed on their way the specified AS, without looking in which order.  This will match routes with AS paths like: "333 111 777 999", "111 777", "111" (see table above as "_" will match as "$" and "^" as well) </td>
 </tr>
 </table>
 
