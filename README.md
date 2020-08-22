@@ -1,6 +1,6 @@
 # Cookbooks
 
-Compilation of cookbooks with examples based on my notes of over 14+ years in IT.
+Compilation of cookbooks with examples based on my notes of 14+ years in IT.
 It is, and will always be a work in progress.  
 
 ### Linux
