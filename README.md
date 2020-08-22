@@ -12,6 +12,6 @@ It is, and will always be a work in progress.
 
 * [AWS S3 cli](https://github.com/yuriskinfo/cookbooks/blob/master/aws-s3-cli-cookbook.md)  
 
-### Fortinet: Fortigate, Fortiwebb, FortiManager
+### Fortinet: Fortigate, Fortiweb, FortiManager
 
 * [Fortigate BGP cookbook of example configuration and debug commands](https://github.com/yuriskinfo/cookbooks/blob/master/fortigate-bgp-cookbook.md)
