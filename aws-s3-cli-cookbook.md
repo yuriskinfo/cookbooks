@@ -172,6 +172,6 @@ Here:
 
 Output:  
 ```bash
-https://yurisk.info.s3.amazonaws.com/download.me?                                  AWSAccessKeyId=AKIA2QEA3PKXP5TYM2GO&Signature=0WU7257sOAy9odrh6Fs88d0Vp94%3D&Expires=1599498917   ```
+https://yurisk.info.s3.amazonaws.com/download.me?AWSAccessKeyId=AKIA2QEA3PKXP5TYM2GO&Signature=0WU7257sOAy9odrh6Fs88d0Vp94%3D&Expires=1599498917   ```
 
 The `expires` here is epoch time when the link expires.  
