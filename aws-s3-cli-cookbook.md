@@ -18,7 +18,7 @@
 [Verify the website configuration](#ee17)  
 [Delete website configuration from a bucket (doesn't delete any objects iside the bucket)](#ee18)    
 [Upload local file _index.html_ to the bucket _yurisk.info_ at the location _/tag/nmap/_ and set website redirection to the _http://yurisk.info_, also set ACL to `public-read`](#ee19)    
-[Create expiring link/hot-link to the object in s3 bucket, pre-sign link](##20)  
+[Create expiring link/hot-link to the object in s3 bucket, pre-sign link](#ee20)  
 
 
 
@@ -168,7 +168,7 @@ Here:
 `download.me` - object in S3 to create download link to. NOTE: You don't have to  make this object public in any way, still, anyone with the link will have read    access to it.  
 `--expires-in 259200` - Expiration time starting from now in **seconds**/ Here it is set to 3 days. If this parameter is absent, the default expiration is 3600     seconds or 1 hour.  
 `--region <name>` - region location of the object, if it is different from the    default one set in your AWS profile.   
-`--profile` - optional. Only needed if you ahve multiple AWS IAM user profiles    configured on the host.  
+`--profile` - optional. Only needed if you have multiple AWS IAM user profiles    configured on the host.  
 
 Output:  
 ```bash
