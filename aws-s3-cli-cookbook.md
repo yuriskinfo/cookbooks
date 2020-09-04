@@ -162,7 +162,7 @@ aws s3api put-object --bucket yurisk.info --key /tag/nmap/index.html --website-r
 ### Create expiring link/hot-link to the object in s3 bucket, pre-sign link
 
 ```bash
-aws s3 presign s3://yurisk.info/download.me --expires-in 259200 --profile         awsadminprofile --region eu-west-1
+aws s3 presign s3://yurisk.info/download.me --expires-in 259200 --profile  awsadminprofile --region eu-west-1
 ```
 Here:  
 `download.me` - object in S3 to create download link to. NOTE: You don't have to  make this object public in any way, still, anyone with the link will have read    access to it.  
