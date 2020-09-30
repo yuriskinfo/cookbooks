@@ -8,7 +8,7 @@
 [Find files created/modified within the past 24 hours](#ee5)  
 [Find files modified between 24 and 48 hours ago](#ee6)  
 [Find files modified between 3 and 9 minutes ago](#ee7)  
-
+[Find executable files](#ee8)
 
 
 
@@ -34,3 +34,23 @@ Here:
 find /  -type f -group apache 2>/dev/null
 ```
 
+
+## Find executable files
+There few ways to do so.  
+```bash
+find .  -type f -executable
+```
+Here we don't care for whom the execute bit is set (owner, group, others) - only whether it is set or not.
+
+We can also limit the directory depth:  
+```bash
+find . -maxdepth 1 -type f -executable
+```
+
+Using familiar octal or symbolic notation for executable file:  
+
+```bash
+find . -perm 755
+find . -perm /u+x
+find . -perm /u+x,g+x
+```
