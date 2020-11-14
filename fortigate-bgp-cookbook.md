@@ -1966,6 +1966,7 @@ Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst
 
 
 ## References
+- Original blog post: https://yurisk.info/2020/05/20/fortigate-bgp-cookbook-of-example-configuration-and-debug/  
 - Config router bgp commands: https://docs.fortinet.com/document/fortigate/6.0.0/cli-reference/722994/router-bgp
 - Get commands for BGP https://docs.fortinet.com/document/fortigate/6.0.0/cli-reference/67947/router-info-bgp  
 - Execute router set of commands: (https://docs.fortinet.com/document/fortigate/6.0.0/cli-reference/381055/router-clear-bgp)  
