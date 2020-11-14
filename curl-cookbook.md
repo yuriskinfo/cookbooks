@@ -559,5 +559,5 @@ Weather report: Milan
 
 
 ### References
-- Original post:(https://yurisk.info/2020/03/13/curl-cookbook/)
+- Original post: https://yurisk.info/2020/03/13/curl-cookbook/
  
