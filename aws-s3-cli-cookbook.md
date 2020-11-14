@@ -176,3 +176,8 @@ https://yurisk.info.s3.amazonaws.com/download.me?AWSAccessKeyId=AKIA2QEA3PKXP5TY
  ```
 
 The `expires` here is epoch time when the link expires.  
+
+
+### References
+- Original blog post: https://yurisk.info/2020/04/19/aws-cli-cookbook/
+
